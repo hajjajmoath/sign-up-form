@@ -1,0 +1,162 @@
+@font-face {
+    font-family: Norse;
+    src: url('./Norse-Bold.otf');
+}
+
+body {
+    margin: 0 0%;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    background-color: whitesmoke;
+}
+
+ #picture {
+    background-image: url(halie-west-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+ }
+
+#logo {
+    display: flex;
+    width: 100%;
+    height: 100;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 150px;
+}
+
+#banner {
+    width: 100%;
+}
+
+.odin {
+    font-family: Norse;
+    font-size: 100px;
+}
+
+.odin-logo {
+    width: 100px;
+}
+
+.pic-footer {
+    position: absolute;
+    bottom: 20px;
+    color: gainsboro;
+}
+
+.pic-footer > a {
+    color: gainsboro;
+}
+
+#main {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Form Starts */
+
+#registration-form {
+    width: 100%;
+    height: 40%;
+    background-color: #fff;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+  }
+  
+  .form-header {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+
+  #form-body {
+    width: 75%;
+  }
+  
+  .form-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .form-group {
+    width: 40%;
+    margin: 20px 35px;
+    font-weight: 500;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.05);
+  }
+  
+  .form-group input:focus {
+    border-color: green;
+    outline: none;
+  }
+
+  .form-group input:valid {
+    border-color: #ccc;
+  }
+
+  #button {
+    width: 175px;
+    height:40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #596D48;
+    color: white;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+    font-weight: 600;
+  }
+
+  .group {
+    margin: 20px 35px;
+  }
+
+  .text {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  .login {
+    font-size: 1rem;
+    font-weight: 500;
+    position: relative;
+    bottom: 25px;
+  }
+
+  .text-group {
+    margin: 25px 0;
+    width: 75%;
+  }
+
+  #log-in {
+    color:#596D48;
+    font-weight: bold;
+  }
+
+  /* Media queries */
+
+  @media only screen and (max-width: 1500px) {
+    body {
+        margin: 0;
+    }
+    .form-group {
+      width: 150px;
+    }
+    #form-body {
+        width: 100%;
+        height: 100%;
+    }
+  }
